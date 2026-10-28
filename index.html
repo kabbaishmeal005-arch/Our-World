@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Our World — a little world dedicated to friendship, memories, and the story of three friends."
+    >
+
+    <title>Our World | A Little World of Our Own</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Opening welcome experience -->
+    <section class="intro-screen" id="intro-screen" aria-label="Welcome to Our World">
+        <div class="stars stars-one"></div>
+        <div class="stars stars-two"></div>
+
+        <div class="intro-content">
+            <p class="intro-eyebrow">A LITTLE WORLD OF OUR OWN</p>
+
+            <div class="doorway" aria-hidden="true">
+                <div class="doorway-glow"></div>
+                <div class="doorway-frame">
+                    <div class="doorway-inside"></div>
+                    <span class="doorway-star">✦</span>
+                </div>
+            </div>
+
+            <h1 class="intro-title">OUR <span>WORLD</span></h1>
+
+            <p class="intro-message">
+                Out of all the people in the world, somehow, we found each other.
+            </p>
+
+            <button class="primary-button enter-button" id="enter-button">
+                Enter Our World <span aria-hidden="true">→</span>
+            </button>
+
+            <p class="intro-note">
+                Our memories. Our laughter. Our story.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main website -->
+    <div class="site-wrapper" id="home">
+
+        <!-- Navigation -->
+        <header class="site-header">
+            <a class="brand" href="#home" aria-label="Our World home">
+                <span class="brand-symbol">O</span>
+                <span>Our World<span class="brand-dot">.</span></span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="main-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="pages/three-of-us.html">The Three of Us</a>
+                <a class="nav-link" href="pages/our-story.html">Our Story</a>
+                <a class="nav-link" href="pages/gallery.html">Our Gallery</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- Hero section -->
+            <section class="hero section-container">
+
+                <div class="hero-copy">
+                    <p class="section-label">
+                        <span class="label-line"></span>
+                        A FRIENDSHIP WORTH REMEMBERING
+                    </p>
+
+                    <h1>
+                        Out of all the people in the world,<br>
+                        <span>somehow, we found each other.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Some friendships become more than memories.
+                        They become a part of who we are. This is our
+                        story, our laughter, our little moments, and a
+                        bond we'll always carry with us.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="primary-button" href="#meet-the-three">
+                            Meet the Three of Us
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a class="text-link" href="pages/our-story.html">
+                            Discover our story
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </div>
+
+                    <div class="friendship-signature">
+                        <span class="signature-dots" aria-hidden="true">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </span>
+
+                        <p>
+                            Three friends. Countless memories. One story.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Friendship photo collage -->
+                <div class="hero-art photo-collage" aria-label="Photos of the three friends">
+
+                    <div class="collage-decoration decoration-one">✦</div>
+                    <div class="collage-decoration decoration-two">✧</div>
+                    <div class="collage-decoration decoration-three">♡</div>
+
+                    <figure class="collage-photo collage-photo-one">
+                        <div class="photo-frame">
+                            <img
+                                src="assets/images/ishmael.jpg"
+                                alt="Ishmael Kabba"
+                                class="friend-image"
+                            >
+                            <div class="photo-placeholder">
+                                <span>IK</span>
+                                <p>Ishmael's photo</p>
+                            </div>
+                        </div>
+                        <figcaption>Ishmael</figcaption>
+                    </figure>
+
+                    <figure class="collage-photo collage-photo-two">
+                        <div class="photo-frame">
+                            <img
+                                src="assets/images/isatu.jpg"
+                                alt="Isatu Kargbo"
+                                class="friend-image"
+                            >
+                            <div class="photo-placeholder">
+                                <span>IK</span>
+                                <p>Isatu's photo</p>
+                            </div>
+                        </div>
+                        <figcaption>Isatu</figcaption>
+                    </figure>
+
+                    <figure class="collage-photo collage-photo-three">
+                        <div class="photo-frame">
+                            <img
+                                src="assets/images/mariama.jpg"
+                                alt="Mariama Dansoko"
+                                class="friend-image"
+                            >
+                            <div class="photo-placeholder">
+                                <span>MD</span>
+                                <p>Mariama's photo</p>
+                            </div>
+                        </div>
+                        <figcaption>Mariama</figcaption>
+                    </figure>
+
+                    <div class="collage-note">
+                        <span aria-hidden="true">♡</span>
+                        Our little universe
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Meet the three friends -->
+            <section class="colors-section" id="meet-the-three">
+                <div class="section-container">
+
+                    <div class="section-heading">
+                        <p class="section-label">
+                            <span class="label-line"></span>
+                            THREE FRIENDS, ONE SPECIAL BOND
+                        </p>
+
+                        <h2>
+                            The people who make<br>
+                            <span>this world ours.</span>
+                        </h2>
+
+                        <p>
+                            Get to know the personalities, little habits,
+                            and stories behind our friendship.
+                        </p>
+                    </div>
+
+                    <div class="friend-cards">
+
+                        <!-- Ishmael's profile -->
+                        <article class="friend-card card-blue">
+                            <div class="card-topline">
+                                <span class="friend-number"> MEET ISHMAEL</span>
+                                <span class="card-heart" aria-hidden="true">♡</span>
+                            </div>
+
+                            <div class="profile-photo">
+                                <img
+                                    src="assets/images/ishmael.jpg"
+                                    alt="Portrait of Ishmael Kabba"
+                                    class="friend-image"
+                                >
+                                <div class="photo-placeholder">
+                                    <span>IK</span>
+                                    <p>Ishmael's photo</p>
+                                </div>
+                            </div>
+
+                            <p class="friend-role">ONE OF THE THREE</p>
+                            <h3>Ishmael Kabba</h3>
+                            <p class="friend-nickname">
+                                Known as “Chief Minister”
+                            </p>
+
+                            <div class="card-bottom">
+                                <span>Get to know me</span>
+                                <a
+                                    href="pages/three-of-us.html"
+                                    aria-label="Discover Ishmael"
+                                >↗</a>
+                            </div>
+                        </article>
+
+                        <!-- Isatu's profile -->
+                        <article class="friend-card card-gray">
+                            <div class="card-topline">
+                                <span class="friend-number"> MEET ISATU</span>
+                                <span class="card-heart" aria-hidden="true">♡</span>
+                            </div>
+
+                            <div class="profile-photo">
+                                <img
+                                    src="assets/images/isatu.jpg"
+                                    alt="Portrait of Isatu Kargbo"
+                                    class="friend-image"
+                                >
+                                <div class="photo-placeholder">
+                                    <span>IK</span>
+                                    <p>Isatu's photo</p>
+                                </div>
+                            </div>
+
+                            <p class="friend-role">ONE OF THE THREE</p>
+                            <h3>Isatu Kargbo</h3>
+                            <p class="friend-nickname">
+                                Known as “Indispensable”
+                            </p>
+
+                            <div class="card-bottom">
+                                <span>Get to know me</span>
+                                <a
+                                    href="pages/three-of-us.html"
+                                    aria-label="Discover Isatu"
+                                >↗</a>
+                            </div>
+                        </article>
+
+                        <!-- Mariama's profile -->
+                        <article class="friend-card card-black">
+                            <div class="card-topline">
+                                <span class="friend-number"> MEET MARIAMA</span>
+                                <span class="card-heart" aria-hidden="true">♡</span>
+                            </div>
+
+                            <div class="profile-photo">
+                                <img
+                                    src="assets/images/mariama.jpg"
+                                    alt="Portrait of Mariama Dansoko"
+                                    class="friend-image"
+                                >
+                                <div class="photo-placeholder">
+                                    <span>MD</span>
+                                    <p>Mariama's photo</p>
+                                </div>
+                            </div>
+
+                            <p class="friend-role">ONE OF THE THREE</p>
+                            <h3>Mariama Dansoko</h3>
+                            <p class="friend-nickname">
+                                Known as “Riam”
+                            </p>
+
+                            <div class="card-bottom">
+                                <span>Get to know me</span>
+                                <a
+                                    href="pages/three-of-us.html"
+                                    aria-label="Discover Mariama"
+                                >↗</a>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Friendship message -->
+            <section class="friendship-section section-container">
+                <div class="friendship-panel">
+
+                    <div class="friendship-decoration" aria-hidden="true">♡</div>
+
+                    <p class="section-label">MORE THAN JUST FRIENDS</p>
+
+                    <h2>
+                        Some bonds are impossible<br>
+                        <span>to put into words.</span>
+                    </h2>
+
+                    <p>
+                        It's in the jokes nobody else understands, the
+                        moments we keep talking about, and the memories
+                        that make us smile long after they've passed.
+                        This is a little place to keep all of that alive.
+                    </p>
+
+                    <a class="light-button" href="pages/our-story.html">
+                        Let's revisit our story
+                        <span aria-hidden="true">→</span>
+                    </a>
+
+                </div>
+            </section>
+
+            <!-- Explore the website -->
+            <section class="explore-section section-container">
+
+                <div class="section-heading">
+                    <p class="section-label">
+                        <span class="label-line"></span>
+                        TAKE A LITTLE LOOK AROUND
+                    </p>
+
+                    <h2>
+                        There's more to <span>our story.</span>
+                    </h2>
+                </div>
+
+                <div class="explore-grid">
+
+                    <a class="explore-card" href="pages/three-of-us.html">
+                        <span class="explore-number">01</span>
+                        <span class="explore-icon" aria-hidden="true">✳</span>
+                        <h3>The Three of Us</h3>
+                        <p>
+                            Meet the people, personalities, and little
+                            things that make us who we are.
+                        </p>
+                        <span class="explore-arrow" aria-hidden="true">↗</span>
+                    </a>
+
+                    <a class="explore-card" href="pages/our-story.html">
+                        <span class="explore-number">02</span>
+                        <span class="explore-icon" aria-hidden="true">♡</span>
+                        <h3>Our Story</h3>
+                        <p>
+                            Revisit how it all began and the moments
+                            that brought us closer.
+                        </p>
+                        <span class="explore-arrow" aria-hidden="true">↗</span>
+                    </a>
+
+                    <a class="explore-card" href="pages/gallery.html">
+                        <span class="explore-number">03</span>
+                        <span class="explore-icon" aria-hidden="true">▧</span>
+                        <h3>Our Gallery</h3>
+                        <p>
+                            Keep the pictures, little moments, and
+                            memories we never want to lose.
+                        </p>
+                        <span class="explore-arrow" aria-hidden="true">↗</span>
+                    </a>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+
+            <a class="brand footer-brand" href="#home">
+                <span class="brand-symbol">O</span>
+                <span>Our World<span class="brand-dot">.</span></span>
+            </a>
+
+            <p>A little world of our own.</p>
+
+            <p class="footer-note">
+                Made with friendship, for the memories we'll always keep.
+            </p>
+
+            <a class="back-to-top" href="#home">Back to top ↑</a>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>

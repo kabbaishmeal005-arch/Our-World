@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Our Gallery | Our World</title>
+
+  <link rel="stylesheet" href="../css/gallery.css">
+  <script src="../js/gallery.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="../index.html" class="logo">Our World<span>.</span></a>
+
+    <button
+      class="menu-toggle"
+      id="menu-toggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="main-navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-navigation" id="main-navigation">
+      <a href="../index.html">Home</a>
+      <a href="three-of-us.html">The Three of Us</a>
+      <a href="our-story.html">Our Story</a>
+      <a href="gallery.html" class="active" aria-current="page">Our Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery-hero">
+      <div class="hero-content">
+        <p class="eyebrow">LITTLE MOMENTS. BIG MEMORIES.</p>
+
+        <h1>Our memories, <span>our world.</span></h1>
+
+        <p>
+          A place for the pictures, smiles, funny moments, and little
+          memories that make our friendship worth keeping.
+        </p>
+
+        <a href="#memory-wall" class="primary-button">
+          Explore the Gallery <span>↓</span>
+        </a>
+      </div>
+
+      <div class="hero-decoration hero-decoration-one"></div>
+      <div class="hero-decoration hero-decoration-two"></div>
+    </section>
+
+    <section class="gallery-intro">
+      <p class="eyebrow">A COLLECTION OF US</p>
+      <h2>Every picture has a story.</h2>
+      <p>
+        Some moments deserve more than a place in our phones.
+        This is where we can keep the memories that make us smile
+        whenever we look back.
+      </p>
+    </section>
+
+    <section class="gallery-section" id="memory-wall">
+      <div class="gallery-heading">
+        <div>
+          <p class="eyebrow">THE MEMORY WALL</p>
+          <h2>Our little collection</h2>
+        </div>
+
+        <p class="gallery-count">6 memory spaces</p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <article class="memory-card">
+          <button
+            class="memory-photo"
+            type="button"
+            data-image="../assets/images/memory-1.jpg"
+            data-caption="The Three of Us"
+            aria-label="View The Three of Us photo">
+
+            <img
+              class="gallery-image"
+              src="../assets/images/memory-1.jpg"
+              alt="A photo of the three friends together"
+              loading="lazy">
+
+            <div class="photo-placeholder">
+              <span class="placeholder-icon" aria-hidden="true">♡</span>
+              <span class="placeholder-title">THE THREE OF US</span>
+              <span class="placeholder-hint">Add a favourite group photo</span>
+            </div>
+
+            <span class="view-photo" aria-hidden="true">View photo ↗</span>
+          </button>
+
+          <div class="memory-caption">
+            <p class="memory-category">TOGETHER</p>
+            <h3>The Three of Us</h3>
+            <p>A picture that brings our little world together.</p>
+          </div>
+        </article>
+
+        <article class="memory-card">
+          <button
+            class="memory-photo"
+            type="button"
+            data-image="../assets/images/memory-2.jpg"
+            data-caption="The Funny Moments"
+            aria-label="View The Funny Moments photo">
+
+            <img
+              class="gallery-image"
+              src="../assets/images/memory-2.jpg"
+              alt="A funny moment shared by the friends"
+              loading="lazy">
+
+            <div class="photo-placeholder">
+              <span class="placeholder-icon" aria-hidden="true">☺</span>
+              <span class="placeholder-title">THE FUNNY MOMENTS</span>
+              <span class="placeholder-hint">Add a funny memory</span>
+            </div>
+
+            <span class="view-photo" aria-hidden="true">View photo ↗</span>
+          </button>
+
+          <div class="memory-caption">
+            <p class="memory-category">LAUGHTER</p>
+            <h3>The Funny Moments</h3>
+            <p>The kind of moments that make us laugh all over again.</p>
+          </div>
+        </article>
+
+        <article class="memory-card">
+          <button
+            class="memory-photo"
+            type="button"
+            data-image="../assets/images/memory-3.jpg"
+            data-caption="The Unplanned Memories"
+            aria-label="View The Unplanned Memories photo">
+
+            <img
+              class="gallery-image"
+              src="../assets/images/memory-3.jpg"
+              alt="An unplanned moment with the friends"
+              loading="lazy">
+
+            <div class="photo-placeholder">
+              <span class="placeholder-icon" aria-hidden="true">✦</span>
+              <span class="placeholder-title">THE UNPLANNED MEMORIES</span>
+              <span class="placeholder-hint">Add a spontaneous moment</span>
+            </div>
+
+            <span class="view-photo" aria-hidden="true">View photo ↗</span>
+          </button>
+
+          <div class="memory-caption">
+            <p class="memory-category">LITTLE MOMENTS</p>
+            <h3>The Unplanned Memories</h3>
+            <p>Sometimes, the unexpected moments become our favourites.</p>
+          </div>
+        </article>
+
+        <article class="memory-card">
+          <button
+            class="memory-photo"
+            type="button"
+            data-image="../assets/images/memory-4.jpg"
+            data-caption="Individual Vibes"
+            aria-label="View Individual Vibes photo">
+
+            <img
+              class="gallery-image"
+              src="../assets/images/memory-4.jpg"
+              alt="A personal photo of one of the friends"
+              loading="lazy">
+
+            <div class="photo-placeholder">
+              <span class="placeholder-icon" aria-hidden="true">♡</span>
+              <span class="placeholder-title">INDIVIDUAL VIBES</span>
+              <span class="placeholder-hint">Add a favourite solo photo</span>
+            </div>
+
+            <span class="view-photo" aria-hidden="true">View photo ↗</span>
+          </button>
+
+          <div class="memory-caption">
+            <p class="memory-category">OUR PERSONALITIES</p>
+            <h3>Individual Vibes</h3>
+            <p>Three unique people, each with a personality of their own.</p>
+          </div>
+        </article>
+
+        <article class="memory-card">
+          <button
+            class="memory-photo"
+            type="button"
+            data-image="../assets/images/memory-5.jpg"
+            data-caption="The Moments We Treasure"
+            aria-label="View The Moments We Treasure photo">
+
+            <img
+              class="gallery-image"
+              src="../assets/images/memory-5.jpg"
+              alt="A treasured friendship memory"
+              loading="lazy">
+
+            <div class="photo-placeholder">
+              <span class="placeholder-icon" aria-hidden="true">✧</span>
+              <span class="placeholder-title">THE MOMENTS WE TREASURE</span>
+              <span class="placeholder-hint">Add a meaningful memory</span>
+            </div>
+
+            <span class="view-photo" aria-hidden="true">View photo ↗</span>
+          </button>
+
+          <div class="memory-caption">
+            <p class="memory-category">SPECIAL TO US</p>
+            <h3>The Moments We Treasure</h3>
+            <p>Memories that mean something to us, even without words.</p>
+          </div>
+        </article>
+
+        <article class="memory-card">
+          <button
+            class="memory-photo"
+            type="button"
+            data-image="../assets/images/memory-6.jpg"
+            data-caption="More Memories to Come"
+            aria-label="View More Memories to Come photo">
+
+            <img
+              class="gallery-image"
+              src="../assets/images/memory-6.jpg"
+              alt="A memory from the friendship"
+              loading="lazy">
+
+            <div class="photo-placeholder">
+              <span class="placeholder-icon" aria-hidden="true">∞</span>
+              <span class="placeholder-title">MORE MEMORIES TO COME</span>
+              <span class="placeholder-hint">Leave space for the next chapter</span>
+            </div>
+
+            <span class="view-photo" aria-hidden="true">View photo ↗</span>
+          </button>
+
+          <div class="memory-caption">
+            <p class="memory-category">OUR JOURNEY CONTINUES</p>
+            <h3>More Memories to Come</h3>
+            <p>Our story is still growing, and there is more to remember.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="gallery-ending">
+      <p class="eyebrow">A FRIENDSHIP WORTH KEEPING</p>
+
+      <h2>One day, we'll look back and smile.</h2>
+
+      <p>
+        Until then, let's keep making memories that deserve a place
+        in our world.
+      </p>
+
+      <a href="our-story.html" class="primary-button">
+        Read Our Story <span>→</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="../index.html" class="footer-logo">Our World<span>.</span></a>
+    <p>A friendship worth keeping.</p>
+
+    <div class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="three-of-us.html">The Three of Us</a>
+      <a href="our-story.html">Our Story</a>
+    </div>
+
+    <p class="copyright">Made with friendship, laughter, and memories.</p>
+  </footer>
+
+  <!-- Full-size photo viewer -->
+  <div
+    class="lightbox"
+    id="lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Photo viewer"
+    aria-hidden="true"
+    hidden>
+
+    <button
+      class="lightbox-close"
+      id="lightbox-close"
+      type="button"
+      aria-label="Close photo viewer">
+      &times;
+    </button>
+
+    <figure class="lightbox-content">
+      <img id="lightbox-image" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+</body>
+</html>
